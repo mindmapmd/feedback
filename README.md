@@ -36,7 +36,7 @@ Things that intentionally won't ship:
 - File format support beyond Markdown (we are Markdown-native, on purpose).
 - Attachments other than images and PDF (zip, exe, docx, video are
   intentionally out — see Privacy Policy).
-- AI features hosted by us (we lean on your existing `claude-code` /
+- AI features hosted by us (we lean on your existing Claude Code /
   Copilot / Cursor subscription instead).
 - Realtime collaborative editing inside the extension (planned as a
   separate paid service, not in core).
