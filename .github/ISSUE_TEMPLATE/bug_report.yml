@@ -1,0 +1,87 @@
+name: Bug report
+description: Report something broken in MindmapMD.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug. The more specific
+        the report, the faster we can fix it. A minimal `.md` snippet
+        that reproduces the issue is the single most useful thing you
+        can include.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: One- or two-line summary. The full story can go in the next sections.
+      placeholder: "Dragging a node onto its own descendant duplicates the subtree instead of being rejected."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the exact actions in order. Assume we know nothing about your setup.
+      placeholder: |
+        1. Open a fresh `.md` with this content:
+           ```markdown
+           # Root
+           - branch
+             - child
+           ```
+        2. Drag "branch" onto "child".
+        3. Observe …
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened?
+    validations:
+      required: true
+
+  - type: input
+    id: ext-version
+    attributes:
+      label: MindmapMD version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: vscode-version
+    attributes:
+      label: VS Code version
+      description: "Help → About → copy the Version line, or run `code --version`."
+      placeholder: "1.89.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots, screen recordings, error messages from the Output panel (View → Output → "MindmapMD"), or anything else that helps.
