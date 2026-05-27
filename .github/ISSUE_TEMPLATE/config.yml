@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: Privacy / security question
-    url: mailto:mau@mindmapmd.dev
+    url: mailto:mau@mindmapmd.app
     about: For anything that shouldn't be public, email instead.
   - name: Documentation
-    url: https://mindmapmd.dev
+    url: https://mindmapmd.app
     about: Marketing site, install instructions, privacy policy.

@@ -1,6 +1,6 @@
 # MindmapMD — Feedback
 
-This is the public issue tracker for **[MindmapMD](https://mindmapmd.dev)**,
+This is the public issue tracker for **[MindmapMD](https://mindmapmd.app)**,
 the proprietary VS Code mindmap editor that opens any `.md` file as an
 interactive 2D mindmap, bidirectionally synced with the source.
 
@@ -57,17 +57,17 @@ code --install-extension mindmapmd.mindmapmd
 
 ## Other channels
 
-- **Site**: <https://mindmapmd.dev>
-- **Privacy Policy**: <https://mindmapmd.dev/privacy>
-- **Terms of Service**: <https://mindmapmd.dev/terms>
-- **Contact**: <mau@mindmapmd.dev>
+- **Site**: <https://mindmapmd.app>
+- **Privacy Policy**: <https://mindmapmd.app/privacy>
+- **Terms of Service**: <https://mindmapmd.app/terms>
+- **Contact**: <mau@mindmapmd.app>
 
 ---
 
 ## License
 
 The MindmapMD extension is proprietary software, free for personal and
-commercial use. See the full agreement at <https://mindmapmd.dev/terms>.
+commercial use. See the full agreement at <https://mindmapmd.app/terms>.
 
 Issues filed in this repository become part of the public record under
 the GitHub Terms of Service. Please don't paste credentials, private file
